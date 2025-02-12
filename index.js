@@ -21,7 +21,7 @@ app.use(router)
 app.use('/upload',express.static('./uploads'))
 
 //set port number
-const port=4001 || process.env.PORT
+const port=4005 || process.env.PORT
 
 //listen the server
 app.listen(port,()=>{
